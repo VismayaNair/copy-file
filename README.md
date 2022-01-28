@@ -6,21 +6,34 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Create a text file with some written information
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+Open the text file with open()
 
-### Step 4:  
+### Step 3:
+Open the empty text file to copy the information
 
-### Step 5: 
+### Step 4:
+By using the function write() copy the text written in the file1 to file2.
 
-### Step 6: 
+### Step 5:
+End the program
 
-## PROGRAM:
+### PROGRAM:
+~~~
+#Developed by: VISMAYA.S
+#Reference number: 21002841
+with open("text1.txt") as f:
+    with open("text2.txt", "w") as f1:
+        for line in f:
+            f1.write(line) 
 
+~~~
 ### OUTPUT:
-
+![github](copy1.png)
+![github](copy2.png)
+![github](copy3.png)
 
 
 ## RESULT:
